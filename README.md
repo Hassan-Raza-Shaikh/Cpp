@@ -4,32 +4,24 @@
 
 A comprehensive archive of computer science data structures and algorithm implementations in C++. Includes lab work, assignments, and test scripts.
 
-## Contents
+## Project Structure
+
+The codebase has been reorganized into clean subfolders representing core concepts:
+
+```text
+├── data_structures/     # AVL, BST, graphs, hashing, stacks, queues, linked lists
+├── algorithms/          # Sorting algorithms (Quick, Merge, Radix, Counting, Bubble, etc.)
+└── oop_basics/          # OOP structures, file handling, pointers, templates, vectors
+```
 
 ### 1. Data Structures
-*   **Trees**: AVL Trees (`AVL_trees.cpp`), Binary Search Trees (`BST_recursion.cpp`, `level_order_traversal_BST.cpp`).
-*   **Graphs**: Adjacency lists and matrices (`graph_adjacency_list.cpp`, `graph_using_vectors.cpp`).
-*   **Lists**: Singly and doubly linked lists (`singly_linkedList.cpp`, `doubly_linkedList.cpp`).
-*   **Queues & Stacks**: Standard arrays and linked-list implementations (`queue_using_linkedlist.cpp`, `stack_using_linkedlist.cpp`).
+*   **Trees**: AVL Trees, Binary Search Trees, level order traversals.
+*   **Graphs**: Adjacency list, matrix representations.
+*   **Lists**: Singly and doubly linked lists.
+*   **Queues & Stacks**: Array and linked-list implementations.
 
 ### 2. Sorting Algorithms
-*   Bubble Sort (`bubble_sort.cpp`)
-*   Counting Sort (`counting_sort.cpp`)
-*   Insertion Sort (`insertion_sort.cpp`)
-*   Merge Sort (`merge_sort.cpp`)
-*   Quick Sort (`quick_sort.cpp`)
-*   Radix Sort (`radix_sort.cpp`)
-*   Selection Sort (`selection_sort.cpp`)
+- Quick Sort, Merge Sort, Radix Sort, Counting Sort, Selection Sort, Insertion Sort, Bubble Sort.
 
-### 3. OOP Concepts
-*   Operator overloading (`operator_overloading.cpp`)
-*   Friend classes (`friend_class.cpp`)
-*   Polymorphism (`polymorphism.cpp`)
-*   Templates (`templates.cpp`)
-
-## Running Code
-Compile any file using your favorite C++ compiler:
-```bash
-g++ -o test bubble_sort.cpp
-./test
-```
+### 3. OOP & Basics
+- Operator overloading, friend classes, virtual functions, dynamic memory, templates, and file handling.
